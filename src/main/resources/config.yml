@@ -1,0 +1,21 @@
+blacklist:
+    blocks: # cuboid blocks in Protection Stones plugin to ignoring by this plugin
+        - BEDROCK
+        - OBSIDIAN
+    worlds: # minecraft worlds to ignoring by this plugin
+        - world1
+        - world2
+    
+colors:
+    lineColor: "#00cc00"
+    lineOpacity: 0.9
+    fillColor: "#00cc00"
+    fillOpacity: 0.15
+
+update: # in seconds
+    mainUpdate: 5
+    additionalUpdate: 15 # for merge etc.
+    
+messages:
+    cuboids: "Cuboids"
+    cuboidDescription: "<b><u>Cuboid</u></b><br><br> <b>Owners:</b><br>%owners_list%<br><br> <b>Members:</b><br>%members_list%"

@@ -1,0 +1,11 @@
+name: DynmapProtectionStones
+version: '${project.version}'
+main: dev.lisu.dynmapprotectionstones.DynmapProtectionStones
+api-version: 1.19
+authors: [ LISUdev ]
+website: https://github.com/LISUdev
+depend:
+    - dynmap
+    - ProtectionStones
+    - WorldGuard
+    - WorldEdit
